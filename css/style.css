@@ -1,0 +1,107 @@
+/* Reset some default styles for the body */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Styling for the header section */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Styling for the main content section */
+main {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Styling for buttons */
+button {
+  display: block;
+  margin: 1em auto;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styling for labels */
+label {
+  display: block;
+  margin: 1em 0;
+}
+
+/* Styling for input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Styling for tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Styling for table cells (th and td) */
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Styling for table header cells */
+th {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+/* Alternating background color for table rows */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Styling for the footer section */
+footer {
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Styling for footer links */
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling for footer unordered list */
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Styling for footer list items */
+footer li {
+  display: inline;
+  margin: 0 10px;
+}

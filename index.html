@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Set character encoding and define viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the webpage -->
+    <title>Airport Information</title>
+
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Link to external JavaScript file with 'defer' attribute for deferred execution -->
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <!-- Main heading of the webpage -->
+        <h1>Airport Information</h1>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+
+        <!-- Button to show student information -->
+        <button id="showStudentInfoBtn">Show Student Info</button>
+        <!-- Placeholder for displaying student information -->
+        <div id="student-info"></div>
+
+        <!-- Input field for airport name -->
+        <label for="airportInput">Enter the name of the airport:</label>
+        <input type="text" id="airportInput" placeholder="E.g. London Heathrow">
+
+        <!-- Button to trigger fetching and displaying airport information -->
+        <button id="showAirportInfoBtn">Show Airport Info</button>
+        <!-- Placeholder for displaying airport information -->
+        <table id="airportTable" style="display: none;">
+            <thead>
+                <!-- Table header with column names -->
+                <tr>
+                    <th>ICAO</th>
+                    <th>IATA</th>
+                    <th>Airport Name</th>
+                    <th>City</th>
+                    <th>Region</th>
+                    <th>Country</th>
+                    <th>Elevation (ft)</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Timezone</th>
+                </tr>
+            </thead>
+            <!-- Table body for airport data -->
+            <tbody id="airportData"></tbody>
+        </table>
+        <!-- Placeholder for displaying error messages -->
+        <div id="errorMessage"></div>
+
+        <!-- Table of famous airports for reference -->
+        <table id="famousAirports">
+            <thead>
+                <!-- Table header for famous airports -->
+                <tr>
+                    <th>More airports that you can look up!</th>
+                </tr>
+            </thead>
+            <!-- Table body with famous airports -->
+            <tbody>
+                <tr>
+                    <td>Billy Bishop Toronto City Centre Airport</td>
+                </tr>
+                <tr>
+                    <td>Fort Frances Municipal Airport</td>
+                </tr>
+                <tr>
+                    <td>Vancouver International Airport</td>
+                </tr>
+                <tr>
+                    <td>Boundary Bay Airport</td>
+                </tr>
+                <tr>
+                    <td>Honiara International Airport</td>
+                </tr>
+                <tr>
+                    <td>Nauru International Airport</td>
+                </tr>
+                <tr>
+                    <td>Port Moresby Jacksons International Airport</td>
+                </tr>
+                <tr>
+                    <td>Wewak International Airport</td>
+                </tr>
+                <tr>
+                    <td>Ross International Airport</td>
+                </tr>
+                <tr>
+                    <td>Edmonton International Airport</td>
+                </tr>
+                <tr>
+                    <td>John C. Munro Hamilton International Airport</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </main>
+
+    <!-- Footer section with documentation links -->
+    <footer>
+        <!-- Footer text with documentation links -->
+        <p>Documentation:</p>
+        <ul>
+            <!-- Link to JavaScript Fetch API documentation -->
+            <li><a href="https://www.geeksforgeeks.org/how-to-use-the-javascript-fetch-api-to-get-data/"
+                    target="_blank">JavaScript Fetch API</a></li>
+
+            <!-- Link to the Airports by API Ninjas documentation -->
+            <li><a href="https://rapidapi.com/apininjas/api/airports-by-api-ninjas" target="_blank">Airports by API
+                    Ninjas</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
